@@ -18,6 +18,18 @@
  "equilibrium.time_slice.:": {
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
+ "equilibrium.time_slice.:.global_quantities.beta_normal": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.beta_tor": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.current_centre.r": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.current_centre.z": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
  "equilibrium.time_slice.:.global_quantities.energy_mhd": {
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
@@ -28,11 +40,44 @@
  "equilibrium.time_slice.:.global_quantities.li_3": {
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
+ "equilibrium.time_slice.:.global_quantities.magnetic_axis.r": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.magnetic_axis.z": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.psi_axis": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.psi_boundary": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.q_95": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
  "equilibrium.time_slice.:.global_quantities.q_axis": {
   "COCOSIO": 11,
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
  "equilibrium.time_slice.:.global_quantities.volume": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_1d.dpressure_dpsi": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_1d.f_df_dpsi": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_1d.psi": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_1d.rho_tor": {
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
  "equilibrium.time_slice.:.profiles_2d.:": {
@@ -65,6 +110,13 @@
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  },
  "equilibrium.time_slice.:.time": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.vacuum_toroidal_field.b0": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.vacuum_toroidal_field.r0": {
   "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
  }
 }

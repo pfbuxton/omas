@@ -1,0 +1,70 @@
+{
+ "__cocos_rules__": {},
+ "__include__": [
+  "_common",
+  "_efit"
+ ],
+ "__mdsserver__": "192.168.1.7:8000",
+ "__options__": {
+  "code_run": "EFIT#BEST",
+  "default_tree": "ST40"
+ },
+ "equilibrium.code.name": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.energy_mhd": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.ip": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.li_3": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.q_axis": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.global_quantities.volume": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.b_field_r": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.b_field_tor": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.b_field_z": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.grid.dim1": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.grid.dim2": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.psi": {
+  "COCOSIO": 11,
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.r": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.profiles_2d.:.z": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ },
+ "equilibrium.time_slice.:.time": {
+  "PYTHON": "equilibrium__tokamak_energy(ods, {pulse}, {code_run!r})"
+ }
+}

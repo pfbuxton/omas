@@ -57,10 +57,10 @@ def equilibrium__tokamak_energy(ods, pulse, code_run):
         ods['equilibrium.time_slice'][iTime]['profiles_2d[0].grid.dim2'] = equilibrium_results.get('PSI2D.FREE.ZGRID')
 
         # Values
-        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].psi'] = equilibrium_results.get('PSI2D.FREE.PSI')[i, :, :]
-        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_r'] = equilibrium_results.get('PSI2D.FREE.BR')[i, :, :]
-        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_z'] = equilibrium_results.get('PSI2D.FREE.BZ')[i, :, :]
-        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_tor'] = equilibrium_results.get('PSI2D.FREE.BPHI')[i, :, :]
+        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].psi'] = equilibrium_results.get('PSI2D.FREE.PSI')[iTime, :, :]
+        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_r'] = equilibrium_results.get('PSI2D.FREE.BR')[iTime, :, :]
+        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_z'] = equilibrium_results.get('PSI2D.FREE.BZ')[iTime, :, :]
+        ods['equilibrium.time_slice'][iTime]['profiles_2d[0].b_field_tor'] = equilibrium_results.get('PSI2D.FREE.BPHI')[iTime, :, :]
 
 
 # ================================
